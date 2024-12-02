@@ -123,9 +123,15 @@ my_flask_app/
 
 ### 5. **Running the Flask Development Server**
 
+Go inside the my_flask_app folder:
+
+   ```bash
+   cd my_flask_app
+   ```
+
 Run your Flask application:
 
-   ```python
+   ```bash
    python app.py
    ```
 Access your app at http://127.0.0.1:5000/ 

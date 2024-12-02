@@ -180,7 +180,20 @@ Static files include CSS, JavaScript, and images that do not change dynamically.
 
 ### **Step-by-Step Guide**
 
-### Step 1: Create the Base Template ( base.html )
+### Step 0: Create folder templates
+
+Go to the my_flask_app directory:
+
+   ```bash
+      cd my_flask_app
+   ```
+Create templates and static folder:
+
+   ```bash
+      mkdir templates static
+   ```
+
+### Step 1: Go to templates folder and Create the Base Template ( base.html )
 
    ```html
    <!DOCTYPE html>
