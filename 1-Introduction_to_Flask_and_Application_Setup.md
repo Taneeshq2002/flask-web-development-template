@@ -87,7 +87,7 @@ app.run(debug=True)
 Add a new route to your application:
 
    ```python
-   @app.route('/about')
+@app.route('/about')
 
    def about():
 
